@@ -9,7 +9,14 @@
 /* Begin PBXBuildFile section */
 		004FD1E183A2F52A4913C9DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7210F22777D23AD1713BCADE /* AppDelegate.swift */; };
 		2326D48359ED04562F836724 /* exportedExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E89E375747FF8D6F537BD78 /* exportedExampleTests.swift */; };
+		2EC3003507056D1E9B6A2251 /* ModuleG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32AF0C45460B930AE4EA7F8 /* ModuleG.framework */; };
+		45E8DC43576E33F3343ECFBA /* ModuleH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D4155FE49FD33397902707E /* ModuleH.framework */; };
+		5E6FD7ED54860A1E492C3CCF /* ModuleE.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DFC16344656B0F28AAF9B70 /* ModuleE.framework */; };
+		8613657AE22126CE99F8BF34 /* ModuleB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6AE994AD5B8CDCAD7223A84 /* ModuleB.framework */; };
 		9647E5B943BFC4F164E6F3CA /* ImportModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE6CFBE5919CD0CF9B31EA9 /* ImportModule.swift */; };
+		9856CB654825E496DEC62216 /* ModuleC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C11061C9BA6FE60BCF9C23B /* ModuleC.framework */; };
+		D8EE4822FC2E892E3E2F387C /* ModuleD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AD8C73CDC232BAE7A11BC /* ModuleD.framework */; };
+		E84103AA1D4DCFA348E8905A /* ModuleF.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70241BF64C466E59F1B31935 /* ModuleF.framework */; };
 		FEAD0D7B4097A68B477A1B05 /* ModuleA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC99A97E181DF1F9C06F7E4F /* ModuleA.framework */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +82,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEAD0D7B4097A68B477A1B05 /* ModuleA.framework in Frameworks */,
+				8613657AE22126CE99F8BF34 /* ModuleB.framework in Frameworks */,
+				9856CB654825E496DEC62216 /* ModuleC.framework in Frameworks */,
+				D8EE4822FC2E892E3E2F387C /* ModuleD.framework in Frameworks */,
+				5E6FD7ED54860A1E492C3CCF /* ModuleE.framework in Frameworks */,
+				E84103AA1D4DCFA348E8905A /* ModuleF.framework in Frameworks */,
+				2EC3003507056D1E9B6A2251 /* ModuleG.framework in Frameworks */,
+				45E8DC43576E33F3343ECFBA /* ModuleH.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +352,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6794ZU679A;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Derived/InfoPlists/App.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,7 +374,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -404,7 +416,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -439,7 +450,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = 6794ZU679A;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = Derived/InfoPlists/App.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -461,7 +471,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -511,7 +520,6 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
 			};
 			name = Debug;
 		};

@@ -49,7 +49,6 @@
 		6247693351EE347A2D7CD493 /* ModuleHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleHTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B52F4370825C0C73A92B0EA /* ModuleH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F790CE35E39EC4348142B88 /* ModuleHTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ModuleHTests.plist; sourceTree = "<group>"; };
-		80563F7A66D9A7C474097C72 /* exportedExampleKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = exportedExampleKit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		84BADE74881F04C700105717 /* exportedExampleKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exportedExampleKitTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,14 +71,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		420B205FD897A19128FC19F1 /* Playgrounds */ = {
-			isa = PBXGroup;
-			children = (
-				80563F7A66D9A7C474097C72 /* exportedExampleKit.playground */,
-			);
-			path = Playgrounds;
-			sourceTree = "<group>";
-		};
 		720C4EB78E059618E1EC5B9E /* InfoPlists */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,7 +126,6 @@
 			children = (
 				DD2A921ABA47F18DC9293152 /* Project */,
 				8DE8F04568CB49A795FAEB57 /* Frameworks */,
-				420B205FD897A19128FC19F1 /* Playgrounds */,
 				F9AE962C1B9B4FF20CDA67B5 /* Products */,
 			);
 			sourceTree = "<group>";

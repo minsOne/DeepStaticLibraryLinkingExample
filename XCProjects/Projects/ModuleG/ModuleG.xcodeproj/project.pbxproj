@@ -49,7 +49,6 @@
 		9FA407AAC6BA8235462E24D6 /* ModuleGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A681A90B73474ACED0AD37F3 /* ModuleG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B818C57F9DF1A3FB10FB2CCE /* ModuleGTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ModuleGTests.plist; sourceTree = "<group>"; };
-		D1ECA17850469F782516C6B4 /* exportedExampleKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = exportedExampleKit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		F4243CCFE5F646DC7AA5F6D1 /* ModuleG.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ModuleG.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +92,6 @@
 			children = (
 				CCC04A6889FD317DACB29CE9 /* Project */,
 				B10E987B1812FB2A5313B080 /* Frameworks */,
-				F862B1427656A8D39D5BFC6F /* Playgrounds */,
 				E9BC07A9E5D99FF8CC9F9088 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -139,14 +137,6 @@
 				9FA407AAC6BA8235462E24D6 /* ModuleGTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F862B1427656A8D39D5BFC6F /* Playgrounds */ = {
-			isa = PBXGroup;
-			children = (
-				D1ECA17850469F782516C6B4 /* exportedExampleKit.playground */,
-			);
-			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

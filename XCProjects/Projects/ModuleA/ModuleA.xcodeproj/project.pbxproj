@@ -71,7 +71,6 @@
 		23DA029DBB43BA6A70828EA9 /* ModuleA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24EC42DD2964133249A12D82 /* ModuleH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C933C1C4E964997436DC9D7 /* ModuleC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		42A295F1392FC5914FF60831 /* exportedExampleKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = exportedExampleKit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		540721E923A9FA5CF70A3305 /* ModuleATests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ModuleATests.plist; sourceTree = "<group>"; };
 		5E71F30F1763A4888909823F /* ModuleAClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleAClass.swift; sourceTree = "<group>"; };
 		9256D858311AA317C617637B /* ModuleG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,7 +112,6 @@
 			children = (
 				55A4B1A634FF6D891D84E9CB /* Project */,
 				805C4EF56E08307DD6B7A950 /* Frameworks */,
-				9578C77084E61D07E59F1AC2 /* Playgrounds */,
 				E964FC439D02C0EAA360ED35 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -151,14 +149,6 @@
 				5E71F30F1763A4888909823F /* ModuleAClass.swift */,
 			);
 			path = Sources;
-			sourceTree = "<group>";
-		};
-		9578C77084E61D07E59F1AC2 /* Playgrounds */ = {
-			isa = PBXGroup;
-			children = (
-				42A295F1392FC5914FF60831 /* exportedExampleKit.playground */,
-			);
-			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 		9F0744A1DBB47CD2789198F9 /* Derived */ = {

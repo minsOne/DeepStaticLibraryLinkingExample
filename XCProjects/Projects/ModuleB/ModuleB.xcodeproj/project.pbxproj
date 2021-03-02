@@ -64,7 +64,6 @@
 		18C822434DB09DE7E2BE9C07 /* ModuleE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D10ACADA4D48148F44188CD /* ModuleD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2916D5A5A4361A6C430B7A7D /* ModuleB.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ModuleB.plist; sourceTree = "<group>"; };
-		2CD25F3EDCA275CBD475DB81 /* exportedExampleKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = exportedExampleKit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4174E57EE2FA85CFA27B2495 /* ModuleB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		450C7DD988D6E64911E25401 /* ModuleBClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleBClass.swift; sourceTree = "<group>"; };
 		78BFEAFF5E3431E5D5CAC929 /* exportedExampleKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exportedExampleKitTests.swift; sourceTree = "<group>"; };
@@ -113,7 +112,6 @@
 			children = (
 				74D1BC0DFF02BE8CCEDF856E /* Project */,
 				5BFD59CC85EB9C0193C95ADD /* Frameworks */,
-				89F2113965448D739BC5CCF2 /* Playgrounds */,
 				7DC35F3E92D2316D7E98525D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -155,14 +153,6 @@
 				7AB97E93C4316BB9B82532E9 /* ModuleH.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		89F2113965448D739BC5CCF2 /* Playgrounds */ = {
-			isa = PBXGroup;
-			children = (
-				2CD25F3EDCA275CBD475DB81 /* exportedExampleKit.playground */,
-			);
-			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 		AEC0135884399133E3FECA4E /* InfoPlists */ = {

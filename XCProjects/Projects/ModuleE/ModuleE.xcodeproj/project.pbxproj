@@ -56,7 +56,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1A26C30B982F9C8BC896048A /* exportedExampleKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = exportedExampleKit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		4F4DAE7A4923AB67C86886A4 /* exportedExampleKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exportedExampleKitTests.swift; sourceTree = "<group>"; };
 		8CB387F73E4BB172316C3EDA /* ModuleETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05E0A8D7C5FBE8D4994236B /* ModuleE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,20 +121,11 @@
 			name = Project;
 			sourceTree = "<group>";
 		};
-		BAD726172AA1B61671D89695 /* Playgrounds */ = {
-			isa = PBXGroup;
-			children = (
-				1A26C30B982F9C8BC896048A /* exportedExampleKit.playground */,
-			);
-			path = Playgrounds;
-			sourceTree = "<group>";
-		};
 		C2F14AC7F4EE8D640E566FF1 = {
 			isa = PBXGroup;
 			children = (
 				B4CCE7E1AF5807A36E648681 /* Project */,
 				C6B151DD58735BBE4EFDA8ED /* Frameworks */,
-				BAD726172AA1B61671D89695 /* Playgrounds */,
 				690061DA406743A3EA2EB168 /* Products */,
 			);
 			sourceTree = "<group>";

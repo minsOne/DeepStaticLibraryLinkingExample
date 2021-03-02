@@ -45,7 +45,6 @@
 
 /* Begin PBXFileReference section */
 		16F731FF8DA97FF4F5213A16 /* ModuleF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		197BB658C88D9A14AF0B2A8D /* exportedExampleKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = exportedExampleKit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		6ACF3D25B88F3B0869912F4B /* ModuleF.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ModuleF.plist; sourceTree = "<group>"; };
 		73B7C2859D56E5456CC15B77 /* ModuleFClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleFClass.swift; sourceTree = "<group>"; };
 		7A90C8FAA6DEABD4DF3B3BEA /* exportedExampleKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exportedExampleKitTests.swift; sourceTree = "<group>"; };
@@ -77,17 +76,8 @@
 			children = (
 				87297567A1C6BCFB18F3CFDB /* Project */,
 				E51DF61CD2BF52A8F28B6BFB /* Frameworks */,
-				1AA7CCA7B842698EF3EBCAC6 /* Playgrounds */,
 				B5BC1A2EEB359753522E8FE0 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		1AA7CCA7B842698EF3EBCAC6 /* Playgrounds */ = {
-			isa = PBXGroup;
-			children = (
-				197BB658C88D9A14AF0B2A8D /* exportedExampleKit.playground */,
-			);
-			path = Playgrounds;
 			sourceTree = "<group>";
 		};
 		3B83618F4A9CC0D71C3EAB5D /* InfoPlists */ = {

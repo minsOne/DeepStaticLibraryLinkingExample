@@ -69,7 +69,6 @@
 		2F7C161BA63DBEFFD3CFCF7F /* ModuleE.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleE.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BFA1CEE4AD19F71260F9C8 /* ModuleDTests.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ModuleDTests.plist; sourceTree = "<group>"; };
 		600056ABCA669C706026896A /* ModuleD.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = ModuleD.plist; sourceTree = "<group>"; };
-		64589FF227D7C4B0EECE01B5 /* exportedExampleKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = exportedExampleKit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		722C4BB8B3DC35F97D038FF0 /* ModuleDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D827A3F05B248B7689757626 /* ModuleG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ModuleG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDEA8C91D0B6C8672D0B27B6 /* ModuleDClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleDClass.swift; sourceTree = "<group>"; };
@@ -137,14 +136,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9E96DFD03DDFA9726AF60889 /* Playgrounds */ = {
-			isa = PBXGroup;
-			children = (
-				64589FF227D7C4B0EECE01B5 /* exportedExampleKit.playground */,
-			);
-			path = Playgrounds;
-			sourceTree = "<group>";
-		};
 		B30B538ED9CB669644BF7E74 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,7 +166,6 @@
 			children = (
 				3AC3AE7E018E2A9077C2B4AC /* Project */,
 				6E5BAA8ACEA1401629422409 /* Frameworks */,
-				9E96DFD03DDFA9726AF60889 /* Playgrounds */,
 				9E04F7AD374407054FE3A64A /* Products */,
 			);
 			sourceTree = "<group>";
